@@ -14,6 +14,9 @@
 		1838519321D2260F009198BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1838519121D2260F009198BA /* LaunchScreen.storyboard */; };
 		1838519E21D2260F009198BA /* CreatPodSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838519D21D2260F009198BA /* CreatPodSwiftTests.swift */; };
 		183851A921D2260F009198BA /* CreatPodSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183851A821D2260F009198BA /* CreatPodSwiftUITests.swift */; };
+		183851B921D2262E009198BA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183851B721D2262E009198BA /* TableViewCell.swift */; };
+		183851BA21D2262E009198BA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183851B821D2262E009198BA /* TableViewCell.xib */; };
+		183851BC21D22641009198BA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183851BB21D22641009198BA /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		183851A421D2260F009198BA /* CreatPodSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatPodSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183851A821D2260F009198BA /* CreatPodSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatPodSwiftUITests.swift; sourceTree = "<group>"; };
 		183851AA21D2260F009198BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183851B721D2262E009198BA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		183851B821D2262E009198BA /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		183851BB21D22641009198BA /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		1838518721D2260E009198BA /* CreatPodSwift */ = {
 			isa = PBXGroup;
 			children = (
+				183851B621D22624009198BA /* classes */,
 				1838518821D2260E009198BA /* AppDelegate.swift */,
 				1838518A21D2260E009198BA /* ViewController.swift */,
 				1838518C21D2260E009198BA /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				183851AA21D2260F009198BA /* Info.plist */,
 			);
 			path = CreatPodSwiftUITests;
+			sourceTree = "<group>";
+		};
+		183851B621D22624009198BA /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				183851B721D2262E009198BA /* TableViewCell.swift */,
+				183851B821D2262E009198BA /* TableViewCell.xib */,
+				183851BB21D22641009198BA /* CustomView.swift */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1838519321D2260F009198BA /* LaunchScreen.storyboard in Resources */,
+				183851BA21D2262E009198BA /* TableViewCell.xib in Resources */,
 				1838519021D2260F009198BA /* Assets.xcassets in Resources */,
 				1838518E21D2260E009198BA /* Main.storyboard in Resources */,
 			);
@@ -256,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183851B921D2262E009198BA /* TableViewCell.swift in Sources */,
+				183851BC21D22641009198BA /* CustomView.swift in Sources */,
 				1838518B21D2260E009198BA /* ViewController.swift in Sources */,
 				1838518921D2260E009198BA /* AppDelegate.swift in Sources */,
 			);
