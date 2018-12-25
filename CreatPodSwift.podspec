@@ -8,6 +8,8 @@
 
 Pod::Spec.new do |s|
 
+
+
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  These will help people to find your library, and whilst it
@@ -104,7 +106,7 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-
+  s.swift_version = '4.2'
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
